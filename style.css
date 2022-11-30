@@ -1,0 +1,224 @@
+
+      .email-template {
+        background-color: black;
+      
+      }
+
+      .email-logo {
+        width: 270px;
+        height: 80px;
+        margin: 0 auto;
+        margin-top: 60px;
+      }
+
+      .user-name {
+        background: url(https://i.ibb.co/VHpJGX8/email.png);
+        background-size: 100% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 110vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .user-name h4 {
+        width: 402px;
+        height: 90px;
+
+        background: linear-gradient(
+          91.77deg,
+          rgba(255, 255, 255, 0.6) 0.27%,
+          rgba(255, 255, 255, 0.2) 99.12%
+        );
+        border: 1px solid #ffffff;
+        box-shadow: 0px 24px 40px rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        font-family: "Montserrat";
+        font-style: italic;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 42px;
+        color: #000000;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+      }
+
+      /* message */
+
+      .message-container {
+        background: #2c2047;
+        padding-bottom: 90px;
+        position: relative;
+        padding-top: 400px;
+      }
+
+      .message-container h4 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 42px;
+
+        color: #ffffff;
+        text-align: center;
+        margin-top: 73px;
+      }
+
+      .message-container h6 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 42px;
+
+        color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        padding: 0 5px;
+      }
+
+      .message {
+        /* position: relative; */
+        position: absolute;
+        width: 481px;
+        height: 398px;
+        background: linear-gradient(358.4deg, #604dbc 3.26%, #15e8ba 97.16%);
+        border-radius: 20px;
+        padding-top: 100px;
+        margin: 0 auto;
+        /* margin-top: -200px; */
+    
+        left: 0;
+        right: 0;
+        top: -100px;
+      }
+
+      .gift {
+        /* position: absolute; */
+        width: 142px;
+        height: 122px;
+        /* top: -15%;
+  left: 10%; */
+        margin-top: -170px;
+        margin-left: 40px;
+        /* margin-bottom: 40px; */
+      }
+
+      .message h5 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 42px;
+
+        color: #000000;
+        text-align: center;
+      }
+      .message p {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 42px;
+        text-align: center;
+        color: #000000;
+        text-align: center;
+    
+      }
+      .message button {
+        border: 0;
+        display: block;
+        width: 217px;
+        height: 47px;
+        background: #1e1e2d;
+        border-radius: 29px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 42px;
+        color: #ffffff;
+        margin: 0 auto;
+      }
+
+      .message-container h3 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 42px;
+
+        color: #ffffff;
+        width: 335px;
+        margin: 0 auto;
+      }
+
+      .google-container {
+        height: 51px;
+        width: 51px;
+        background: linear-gradient(
+          270.53deg,
+          #604dbc 14.72%,
+          #38a1bb 77.9%,
+          #38a1bb 84.87%
+        );
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: 35px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .google-container img {
+        height: 19px;
+        width: 19px;
+      }
+     
+      @media only screen and (max-width: 550px) {
+
+        .message {
+          height: fit-content;
+          padding-bottom: 20px;
+        }
+        .message-container{
+          padding-top: 500px;
+        }
+        .user-name {
+          height: 175vw;
+          background-size: cover;
+        }
+
+        .user-name h4 {
+          width: 90%;
+        }
+        .message {
+          width: 90%;
+        }
+        .message p{
+          padding: 5px;
+        }
+        .message-container h3{
+          width: 95%;
+          margin: 0 auto;
+          text-align: center;
+        }
+
+       
+      }
+      @media only screen and (max-width: 440px){
+        .message-container{
+          padding-top: 400px;
+        }
+      }
+      @media only screen and (max-width: 400px){
+        .user-name {
+          height: 600px;
+        
+        }
+      }
+ 
